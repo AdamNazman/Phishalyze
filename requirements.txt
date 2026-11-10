@@ -1,0 +1,4 @@
+# Core analyzer needs NOTHING beyond the Python standard library.
+# The line below is only for the OPTIONAL VirusTotal enrichment layer
+# (phishalyze/enrichment.py). The tool reaches a full verdict without it.
+requests>=2.28 ; python_version >= "3.9"
